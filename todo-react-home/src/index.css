@@ -1,0 +1,38 @@
+
+
+
+body{
+    background: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.TodoItem:hover{
+   background:   rgba(0,0, 0, .3);
+}
+
+.fa-trash{
+    cursor: pointer;
+    color: darkslategray;
+}
+
+.inp{
+  font-size: 1.5rem;
+ 
+}
+
+input[type='checkbox'] {
+    accent-color: lightgreen;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+button{
+    font-size: 1.5rem;
+    background: lightslategrey;
+}
